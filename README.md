@@ -20,6 +20,25 @@ HTML will need:
 
 - will need ids for button and input
 
+drop down menu example: 
+
+        <form>
+          <label for="Happy-Level">Happy Level</label>
+          <select name="Happy-Level">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </form>
+
+
 JS will need:
 -variables tied from button and input from HTML
 
