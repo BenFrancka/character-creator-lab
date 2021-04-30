@@ -35,3 +35,6 @@ function displayThrillSeekingImage(thrillSeeking) {
          return 'https://wahlnetwork.com/wp-content/uploads/2020/07/brock-samson-alligator.png';
 }
 
+/* Refactoring Notes:
+        Store the URLS as variables,
+        House above three functions in a master function, since they all operate the same.*/
