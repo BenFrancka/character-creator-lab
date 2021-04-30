@@ -14,10 +14,10 @@
 
 <body>
     <main>
-       <h1>Logical Index Character Picker</h1> 
-       <h2>Are you cold and calculated or an agent of chaos?</h2>
+       <h1>The Brain Picker</h1> 
+       <h2>What are your inner voices telling you?</h2>
 
-       <!--This section should house the dropdown menu-->
+       <!--This section should house the dropdown menus-->
        <section>
             <form>
                 <label for="logic-scale">Logic Scale</label>
@@ -34,7 +34,41 @@
                         <option value="10">10</option>
                     </select>
             </form>
+
+            <form>
+                <label for="empathy-scale">Empathy Scale</label>
+                    <select id= "empathy-index" name="empathy-scale">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+            </form>
+
+            <form>
+                <label for="thrill-seeking-scale">Thrill Seeking Scale</label>
+                    <select id= "thrill-seeking-index" name="thrill-seeking-scale">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+            </form>
        </section>
+
+
 
        <!--This section should house the button-->
        <section>
@@ -42,7 +76,11 @@
        </section>
 
        <!--Image should display below-->
-       <img id="display-image" src=""/>
+       <img id="logic-display-image" src=""/>
+       <img id="empathy-display-image" src=""/>
+       <img id="thrill-seeking-display-image" src="">
+
+       
     </main>
 
     <script type="module" src="./app.js"></script>
