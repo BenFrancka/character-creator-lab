@@ -71,7 +71,7 @@ h2 {
 
 img {
     max-width: fit-content;
-    max-height: fit-content;
+    max-height: 200px;
 }
 
 .gutter-right {

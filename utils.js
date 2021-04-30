@@ -1,5 +1,7 @@
 export{displayLogicImage, displayEmpathyImage, displayThrillSeekingImage} 
 
+// function to display the logic images
+
 function displayLogicImage(logic) {
     let integer = +(logic);
     if (integer < 4) 
@@ -10,6 +12,7 @@ function displayLogicImage(logic) {
          return 'http://londonhomestays.com/wp-content/uploads/2018/07/sherlock-holmes-147255_960_720-1.png';
 }
 
+// function to display the empathy images
 function displayEmpathyImage(empathy) {
     let integer = +(empathy);
     if (integer < 4) 
@@ -20,6 +23,8 @@ function displayEmpathyImage(empathy) {
          return 'http://middle-earthencyclopedia.weebly.com/uploads/3/8/2/9/3829140/9455479.png';
 }
 
+//function to display the thrill seeking images
+
 function displayThrillSeekingImage(thrillSeeking) {
     let integer = +(thrillSeeking);
     if (integer < 4) 
@@ -29,3 +34,4 @@ function displayThrillSeekingImage(thrillSeeking) {
     if (integer > 7)
          return 'https://wahlnetwork.com/wp-content/uploads/2020/07/brock-samson-alligator.png';
 }
+
